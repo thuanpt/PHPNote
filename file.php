@@ -18,7 +18,7 @@ $content = "Noi dung moi .Ca dao Tuc ngu";
 fwrite($file, $content); // Ghi noi dung moi vao file
 fclose($file);
 
-if (file_exists('tho.txt')) {
+iff (file_exists('tho.txt')) {
 	echo "File ton tai";
 } else {
 	echo "File khong ton tai";
